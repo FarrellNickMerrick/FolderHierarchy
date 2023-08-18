@@ -110,8 +110,9 @@
   fill: #fff;
 }
 .node text {
-  font-size: 6px;
+  font-size: 7px;
   font-family: Roboto, sans-serif;
+  word-wrap: normal;
   text-shadow: 4px 4px 3px white, -4px -4px 3px white;
 }
 .node text:hover {
@@ -124,6 +125,6 @@
 }
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: #333;
   stroke-width: 0.5px;
 }
