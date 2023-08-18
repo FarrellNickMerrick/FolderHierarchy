@@ -113,7 +113,7 @@
   font-size: 7px;
   font-family: Roboto, sans-serif;
   word-wrap: normal;
-  text-shadow: 4px 4px 3px white, -4px -4px 3px white;
+  text-shadow: 4px 4px 3px rgb(255,250,250,0.25), -4px -4px 3px rgb(255,250,250,0.25);
 }
 .node text:hover {
   font-size: 1.1em;
@@ -125,6 +125,6 @@
 }
 .link {
   fill: none;
-  stroke: #333;
+  stroke: #a3a3a3;
   stroke-width: 0.5px;
 }
