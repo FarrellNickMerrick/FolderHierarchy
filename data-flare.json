@@ -1316,8 +1316,7 @@
 }, {
   "id": 330,
   "name": "1 - Templates",
-  "parent": 326,
-  "size": 24593
+  "parent": 326
 }, {
   "id": 331,
   "name": "2 - Projects",
