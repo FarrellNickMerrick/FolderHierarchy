@@ -1,577 +1,1357 @@
-{
-"name": "Revised Engineering Folder Structure - IP",
-"children": [
-{"name": "Admin",
-"children": [
-{"name": "1 - Schedule"},
-{"name": "2 - Office Templates"}
-]
-},{"name": "Construction",
-"children": [
-{"name": "0 - Standards",
-"children": [
-{"name": "1 - Processes & Guidelines"},
-{"name": "2 - Correspondence"}
-]
-},{"name": "1 - Load Test",
-"children": [
-{"name": "Load Test Analysis",
-"children": [
-{"name": "1 - Load Test Setup Summary",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "3 - Lessons Learned",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "2 - Load Test Data",
-"children": [
-{"name": "Dial Gauges"},
-{"name": "Install Logs"},
-{"name": "Strain Gages"},
-{"name": "LVDTs"}
-]
-},{"name": "4 - Load Test Results",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Internal Review"}
-]
+[{
+  id: 0,
+  name: "Revised Engineering Folder Structure - IP"
+}, {
+  id: 1,
+  name: "Admin",
+  parent: 0
+}, {
+  id: 2,
+  name: "1 - Schedule",
+  parent: 1
+}, {
+  id: 3,
+  name: "2 - Office Templates",
+  parent: 1
+}, {
+  id: 4,
+  name: "Construction",
+  parent: 0
+}, {
+  id: 5,
+  name: "0 - Standards",
+  parent: 4
+}, {
+  id: 6,
+  name: "1 - Processes &amp; Guidelines",
+  parent: 5
+}, {
+  id: 7,
+  name: "2 - Correspondence",
+  parent: 5
+}, {
+  id: 8,
+  name: "1 - Load Test",
+  parent: 4
+}, {
+  id: 9,
+  name: "Load Test Analysis",
+  parent: 8
+}, {
+  id: 10,
+  name: "1 - Load Test Setup Summary",
+  parent: 9
+}, {
+  id: 11,
+  name: "Parts",
+  parent: 10
+}, {
+  id: 12,
+  name: "3 - Lessons Learned",
+  parent: 9
+}, {
+  id: 13,
+  name: "Parts",
+  parent: 12
+}, {
+  id: 14,
+  name: "2 - Load Test Data",
+  parent: 9
+}, {
+  id: 15,
+  name: "Dial Gauges",
+  parent: 14
+}, {
+  id: 16,
+  name: "Install Logs",
+  parent: 14
+}, {
+  id: 17,
+  name: "Strain Gages",
+  parent: 14
+}, {
+  id: 18,
+  name: "LVDTs",
+  parent: 14
+}, {
+  id: 19,
+  name: "4 - Load Test Results",
+  parent: 9
+}, {
+  id: 20,
+  name: "Parts",
+  parent: 19
+}, {
+  id: 21,
+  name: "Internal Review",
+  parent: 20
+}, {
+  id: 22,
+  name: "5 - Load Test Evaluation",
+  parent: 9
+}, {
+  id: 23,
+  name: "Parts",
+  parent: 22
+}, {
+  id: 24,
+  name: "zDatabase",
+  parent: 9
+}, {
+  id: 25,
+  name: "1 - Site Plan and Subsurface Exploration",
+  parent: 24
+}, {
+  id: 26,
+  name: "2 - LT Data",
+  parent: 24
+}, {
+  id: 27,
+  name: "Dial Gauge Reading Scans",
+  parent: 26
+}, {
+  id: 28,
+  name: "Installation &amp; Setup Logs",
+  parent: 26
+}, {
+  id: 29,
+  name: "RST - Potentiometer Data",
+  parent: 26
+}, {
+  id: 30,
+  name: "RST - Strain Gauge Data",
+  parent: 26
+}, {
+  id: 31,
+  name: "3 - Lessons Learned",
+  parent: 24
+}, {
+  id: 32,
+  name: "4 - LT Results",
+  parent: 24
+}, {
+  id: 33,
+  name: "Internal Review",
+  parent: 32
+}, {
+  id: 34,
+  name: "5 - LT Evaluation",
+  parent: 24
+}, {
+  id: 35,
+  name: "Load Test Program Submittal",
+  parent: 8
+}, {
+  id: 36,
+  name: "Parts",
+  parent: 35
+}, {
+  id: 37,
+  name: "Load Test Letter",
+  parent: 8
+}, {
+  id: 38,
+  name: "Parts",
+  parent: 37
+}, {
+  id: 39,
+  name: "Load Test Book",
+  parent: 8
+}, {
+  id: 40,
+  name: "0Parts",
+  parent: 39
+}, {
+  id: 41,
+  name: "Install",
+  parent: 40
+}, {
+  id: 42,
+  name: "CAP-CSC",
+  parent: 41
+}, {
+  id: 43,
+  name: "DD",
+  parent: 41
+}, {
+  id: 44,
+  name: "HP",
+  parent: 41
+}, {
+  id: 45,
+  name: "VDC-VSC",
+  parent: 41
+}, {
+  id: 46,
+  name: "Setup",
+  parent: 40
+}, {
+  id: 47,
+  name: "Tester",
+  parent: 40
+}, {
+  id: 48,
+  name: "Tester Notes",
+  parent: 40
+}, {
+  id: 49,
+  name: "Load Test App Upload",
+  parent: 39
+}, {
+  id: 50,
+  name: "Load Test Basis",
+  parent: 39
+}, {
+  id: 51,
+  name: "Load Test Map",
+  parent: 39
+}, {
+  id: 52,
+  name: "3 - Handoff",
+  parent: 4
+}, {
+  id: 53,
+  name: "PE Handoff",
+  parent: 52
+}, {
+  id: 54,
+  name: "Parts",
+  parent: 53
+}, {
+  id: 55,
+  name: "RFI",
+  parent: 52
+}, {
+  id: 56,
+  name: "Design",
+  parent: 55
+}, {
+  id: 57,
+  name: "Construction",
+  parent: 55
+}, {
+  id: 58,
+  name: "202X-XX-XX RFI No1 Approved For Construction Drawings",
+  parent: 57
+}, {
+  id: 59,
+  name: "Parts",
+  parent: 58
+}, {
+  id: 60,
+  name: "Response",
+  parent: 58
+}, {
+  id: 61,
+  name: "202X-XX-XX RFI No2 Quality Control Elevations",
+  parent: 57
+}, {
+  id: 62,
+  name: "Parts",
+  parent: 61
+}, {
+  id: 63,
+  name: "Response",
+  parent: 61
+}, {
+  id: 64,
+  name: "202X-XX-XX RFI No3 Survey Control and Civil CAD",
+  parent: 57
+}, {
+  id: 65,
+  name: "Parts",
+  parent: 64
+}, {
+  id: 66,
+  name: "Response",
+  parent: 64
+}, {
+  id: 67,
+  name: "202X-XX-XX RFI No4 Grout Sample and Break Data",
+  parent: 57
+}, {
+  id: 68,
+  name: "Parts",
+  parent: 67
+}, {
+  id: 69,
+  name: "Response",
+  parent: 67
+}, {
+  id: 70,
+  name: "202X-XX-XX RFI No5 Bottom of Concrete Elevations Confirmation",
+  parent: 57
+}, {
+  id: 71,
+  name: "Parts",
+  parent: 70
+}, {
+  id: 72,
+  name: "Response",
+  parent: 70
+}, {
+  id: 73,
+  name: "2 - Quality Control",
+  parent: 4
+}, {
+  id: 74,
+  name: "DDC-ACC",
+  parent: 73
+}, {
+  id: 75,
+  name: "QC App Upload",
+  parent: 74
+}, {
+  id: 76,
+  name: "Parts",
+  parent: 74
+}, {
+  id: 77,
+  name: "Elevation Control Log Book",
+  parent: 76
+}, {
+  id: 78,
+  name: "Production QC Log Book",
+  parent: 76
+}, {
+  id: 79,
+  name: "Project Managers QC Reference Book",
+  parent: 76
+}, {
+  id: 80,
+  name: "Reference QC Book",
+  parent: 76
+}, {
+  id: 81,
+  name: "zChipping QC Log Book",
+  parent: 76
+}, {
+  id: 82,
+  name: "QC Basis",
+  parent: 74
+}, {
+  id: 83,
+  name: "QC Maps",
+  parent: 74
+}, {
+  id: 84,
+  name: "CAP-CSC",
+  parent: 73
+}, {
+  id: 85,
+  name: "Parts",
+  parent: 84
+}, {
+  id: 86,
+  name: "Drillers QC Log Book",
+  parent: 85
+}, {
+  id: 87,
+  name: "Hammer QC Log Book",
+  parent: 85
+}, {
+  id: 88,
+  name: "Production QC Log Book",
+  parent: 85
+}, {
+  id: 89,
+  name: "Project Managers QC Reference Book",
+  parent: 85
+}, {
+  id: 90,
+  name: "Reference QC Book",
+  parent: 85
+}, {
+  id: 91,
+  name: "QC Basis",
+  parent: 84
+}, {
+  id: 92,
+  name: "QC App Upload",
+  parent: 84
+}, {
+  id: 93,
+  name: "QC Maps",
+  parent: 84
+}, {
+  id: 94,
+  name: "CSB",
+  parent: 73
+}, {
+  id: 95,
+  name: "Parts",
+  parent: 94
+}, {
+  id: 96,
+  name: "Drillers QC Log Book",
+  parent: 95
+}, {
+  id: 97,
+  name: "Post-Installation QC Log Book",
+  parent: 95
+}, {
+  id: 98,
+  name: "Project Managers QC Reference Book",
+  parent: 95
+}, {
+  id: 99,
+  name: "Reference QC Book",
+  parent: 95
+}, {
+  id: 100,
+  name: "QC Basis",
+  parent: 94
+}, {
+  id: 101,
+  name: "QC Maps",
+  parent: 94
+}, {
+  id: 102,
+  name: "RIC",
+  parent: 73
+}, {
+  id: 103,
+  name: "Parts",
+  parent: 102
+}, {
+  id: 104,
+  name: "Production QC Log Book",
+  parent: 103
+}, {
+  id: 105,
+  name: "QC Basis",
+  parent: 102
+}, {
+  id: 106,
+  name: "QC Maps",
+  parent: 102
+}, {
+  id: 107,
+  name: "DDP-ACP",
+  parent: 73
+}, {
+  id: 108,
+  name: "Parts",
+  parent: 107
+}, {
+  id: 109,
+  name: "Production QC Log Book",
+  parent: 108
+}, {
+  id: 110,
+  name: "Elevation Control Log Book",
+  parent: 108
+}, {
+  id: 111,
+  name: "Project Managers QC Reference Book",
+  parent: 108
+}, {
+  id: 112,
+  name: "Reference QC Log Book",
+  parent: 108
+}, {
+  id: 113,
+  name: "QC App Upload",
+  parent: 107
+}, {
+  id: 114,
+  name: "QC Basis",
+  parent: 107
+}, {
+  id: 115,
+  name: "QC Maps",
+  parent: 107
+}, {
+  id: 116,
+  name: "VDC-VSC",
+  parent: 73
+}, {
+  id: 117,
+  name: "QC Maps",
+  parent: 116
+}, {
+  id: 118,
+  name: "QC Basis",
+  parent: 116
+}, {
+  id: 119,
+  name: "Parts",
+  parent: 116
+}, {
+  id: 120,
+  name: "Production QC Log Book",
+  parent: 119
+}, {
+  id: 121,
+  name: "Reference QC Book",
+  parent: 119
+}, {
+  id: 122,
+  name: "Project Managers QC Reference Book",
+  parent: 119
+}, {
+  id: 123,
+  name: "Rig Operators QC Log Book",
+  parent: 119
+}, {
+  id: 124,
+  name: "zQC Reference Tables",
+  parent: 73
+}, {
+  id: 125,
+  name: "Grout",
+  parent: 124
+}, {
+  id: 126,
+  name: "Aggregate",
+  parent: 124
+}, {
+  id: 127,
+  name: "zQC Spreadsheets",
+  parent: 73
+}, {
+  id: 128,
+  name: "QC App Upload",
+  parent: 127
+}, {
+  id: 129,
+  name: "HP-DPP",
+  parent: 73
+}, {
+  id: 130,
+  name: "QC Maps",
+  parent: 129
+}, {
+  id: 131,
+  name: "Parts",
+  parent: 129
+}, {
+  id: 132,
+  name: "Elevation Control Log Book",
+  parent: 131
+}, {
+  id: 133,
+  name: "Production QC Log Book",
+  parent: 131
+}, {
+  id: 134,
+  name: "Project Managers QC Reference Book",
+  parent: 131
+}, {
+  id: 135,
+  name: "Reference QC Book",
+  parent: 131
+}, {
+  id: 136,
+  name: "QC Basis",
+  parent: 129
+}, {
+  id: 137,
+  name: "zQC Training",
+  parent: 73
+}, {
+  id: 138,
+  name: "5 - Grout Breaks",
+  parent: 4
+}, {
+  id: 139,
+  name: "Strength Data",
+  parent: 138
+}, {
+  id: 140,
+  name: "Mix Design No - Grout - Sand - Cement - Quarry",
+  parent: 139
+}, {
+  id: 141,
+  name: "28-Day",
+  parent: 140
+}, {
+  id: 142,
+  name: "7-Day",
+  parent: 140
+}, {
+  id: 143,
+  name: "56-Day",
+  parent: 140
+}, {
+  id: 144,
+  name: "4 - Production Summary",
+  parent: 4
+}, {
+  id: 145,
+  name: "QC Download Spreadsheet",
+  parent: 144
+}, {
+  id: 146,
+  name: "Library",
+  parent: 0
+}, {
+  id: 147,
+  name: "1 - Building Codes &amp; Guidelines",
+  parent: 146
+}, {
+  id: 148,
+  name: "1 - CBC",
+  parent: 147
+}, {
+  id: 149,
+  name: "3 - AASHTO",
+  parent: 147
+}, {
+  id: 150,
+  name: "2 - ACI",
+  parent: 147
+}, {
+  id: 151,
+  name: "2 - References",
+  parent: 146
+}, {
+  id: 152,
+  name: "1 - Farrell White Papers",
+  parent: 151
+}, {
+  id: 153,
+  name: "4 - Software",
+  parent: 146
+}, {
+  id: 154,
+  name: "3 - Presentations",
+  parent: 146
+}, {
+  id: 155,
+  name: "1 - Farrell Presentations",
+  parent: 154
+}, {
+  id: 156,
+  name: "2 - Calgeo",
+  parent: 154
+}, {
+  id: 157,
+  name: "5 - Databases",
+  parent: 146
+}, {
+  id: 158,
+  name: "0 - All Projects",
+  parent: 157
+}, {
+  id: 159,
+  name: "1 - Geotechnical",
+  parent: 157
+}, {
+  id: 160,
+  name: "2 - Structural",
+  parent: 157
+}, {
+  id: 161,
+  name: "3 - Grout",
+  parent: 157
+}, {
+  id: 162,
+  name: "4 - Load Test",
+  parent: 157
+}, {
+  id: 163,
+  name: "5 - Project",
+  parent: 157
+}, {
+  id: 164,
+  name: "Digitial Releas Forms",
+  parent: 163
+}, {
+  id: 165,
+  name: "Plan Check Comments",
+  parent: 163
+}, {
+  id: 166,
+  name: "6 - Specifications",
+  parent: 146
+}, {
+  id: 167,
+  name: "Design",
+  parent: 0
+}, {
+  id: 168,
+  name: "2 - GE",
+  parent: 167
+}, {
+  id: 169,
+  name: "Basis",
+  parent: 168
+}, {
+  id: 170,
+  name: "Model",
+  parent: 168
+}, {
+  id: 171,
+  name: "AllPile",
+  parent: 170
+}, {
+  id: 172,
+  name: "CPeT-IT",
+  parent: 170
+}, {
+  id: 173,
+  name: "StoneC",
+  parent: 170
+}, {
+  id: 174,
+  name: "UniPile",
+  parent: 170
+}, {
+  id: 175,
+  name: "CLiq",
+  parent: 170
+}, {
+  id: 176,
+  name: "Plaxis",
+  parent: 170
+}, {
+  id: 177,
+  name: "Settle3",
+  parent: 170
+}, {
+  id: 178,
+  name: "Parts",
+  parent: 168
+}, {
+  id: 179,
+  name: "REFERENCE",
+  parent: 178
+}, {
+  id: 180,
+  name: "3 - SE",
+  parent: 167
+}, {
+  id: 181,
+  name: "Basis",
+  parent: 180
+}, {
+  id: 182,
+  name: "Model",
+  parent: 180
+}, {
+  id: 183,
+  name: "GROUP",
+  parent: 182
+}, {
+  id: 184,
+  name: "LPile",
+  parent: 182
+}, {
+  id: 185,
+  name: "spColumn",
+  parent: 182
+}, {
+  id: 186,
+  name: "Parts",
+  parent: 180
+}, {
+  id: 187,
+  name: "REFERENCE",
+  parent: 186
+}, {
+  id: 188,
+  name: "1 - Takeoff",
+  parent: 167
+}, {
+  id: 189,
+  name: "Archive",
+  parent: 188
+}, {
+  id: 190,
+  name: "Basis",
+  parent: 188
+}, {
+  id: 191,
+  name: "Model",
+  parent: 188
+}, {
+  id: 192,
+  name: "SAFE",
+  parent: 191
+}, {
+  id: 193,
+  name: "Parts",
+  parent: 188
+}, {
+  id: 194,
+  name: "REFERENCE",
+  parent: 193
+}, {
+  id: 195,
+  name: "0 - Standards",
+  parent: 167
+}, {
+  id: 196,
+  name: "2 - Correspondence",
+  parent: 195
+}, {
+  id: 197,
+  name: "1 - Processes &amp; Guidelines",
+  parent: 195
+}, {
+  id: 198,
+  name: "In-house Applications",
+  parent: 197
+}, {
+  id: 199,
+  name: "Reviews",
+  parent: 197
+}, {
+  id: 200,
+  name: "Spreadsheets",
+  parent: 197
+}, {
+  id: 201,
+  name: "Software",
+  parent: 197
+}, {
+  id: 202,
+  name: "3 - Templates",
+  parent: 195
+}, {
+  id: 203,
+  name: "Software",
+  parent: 202
+}, {
+  id: 204,
+  name: "CPeT-IT",
+  parent: 203
+}, {
+  id: 205,
+  name: "CLiq",
+  parent: 203
+}, {
+  id: 206,
+  name: "SAFE",
+  parent: 203
+}, {
+  id: 207,
+  name: "Settle3",
+  parent: 203
+}, {
+  id: 208,
+  name: "UniPIle",
+  parent: 203
+}, {
+  id: 209,
+  name: "Submittal",
+  parent: 202
+}, {
+  id: 210,
+  name: "4 - Review",
+  parent: 195
+}, {
+  id: 211,
+  name: "4 - Settlement",
+  parent: 167
+}, {
+  id: 212,
+  name: "Parts",
+  parent: 211
+}, {
+  id: 213,
+  name: "REFERENCE",
+  parent: 212
+}, {
+  id: 214,
+  name: "Basis",
+  parent: 211
+}, {
+  id: 215,
+  name: "Model",
+  parent: 211
+}, {
+  id: 216,
+  name: "Drafting",
+  parent: 0
+}, {
+  id: 217,
+  name: "0 - Standards",
+  parent: 216
+}, {
+  id: 218,
+  name: "1 - Processes &amp; Guidelines",
+  parent: 217
+}, {
+  id: 219,
+  name: "2 - Correspondence",
+  parent: 217
+}, {
+  id: 220,
+  name: "1 - CAD Files",
+  parent: 216
+}, {
+  id: 221,
+  name: "2 - Details",
+  parent: 216
+}, {
+  id: 222,
+  name: "zJob File Folder Structure",
+  parent: 0
+}, {
+  id: 223,
+  name: "1 - Contract",
+  parent: 222
+}, {
+  id: 224,
+  name: "1 - Contract Review",
+  parent: 223
+}, {
+  id: 225,
+  name: "1 Scope of Work",
+  parent: 224
+}, {
+  id: 226,
+  name: "2 Labor",
+  parent: 224
+}, {
+  id: 227,
+  name: "3 Safety",
+  parent: 224
+}, {
+  id: 228,
+  name: "0 - Buy-Out Meeting",
+  parent: 223
+}, {
+  id: 229,
+  name: "10 - Contract Documents",
+  parent: 223
+}, {
+  id: 230,
+  name: "2 - Contract Executed",
+  parent: 223
+}, {
+  id: 231,
+  name: "3 - Change Order",
+  parent: 223
+}, {
+  id: 232,
+  name: "5 - Pre Lien",
+  parent: 223
+}, {
+  id: 233,
+  name: "4 - Insurance",
+  parent: 223
+}, {
+  id: 234,
+  name: "6 - Billing",
+  parent: 223
+}, {
+  id: 235,
+  name: "7 - PRIME Contract",
+  parent: 223
+}, {
+  id: 236,
+  name: "8 - Electronic Drawing Release",
+  parent: 223
+}, {
+  id: 237,
+  name: "9 - Design Authorization",
+  parent: 223
+}, {
+  id: 238,
+  name: "2 - Estimating",
+  parent: 222
+}, {
+  id: 239,
+  name: "20XX-XX-XX BID",
+  parent: 238
+}, {
+  id: 240,
+  name: "Basis",
+  parent: 239
+}, {
+  id: 241,
+  name: "Engineering",
+  parent: 240
+}, {
+  id: 242,
+  name: "0For Review",
+  parent: 241
+}, {
+  id: 243,
+  name: "0Parts",
+  parent: 241
+}, {
+  id: 244,
+  name: "3 - Engineering",
+  parent: 222
+}, {
+  id: 245,
+  name: "1 - Reference",
+  parent: 244
+}, {
+  id: 246,
+  name: "Geotech",
+  parent: 245
+}, {
+  id: 247,
+  name: "CPT Data",
+  parent: 246
+}, {
+  id: 248,
+  name: "Geotechnical Review",
+  parent: 246
+}, {
+  id: 249,
+  name: "Parts",
+  parent: 248
+}, {
+  id: 250,
+  name: "Drawings",
+  parent: 245
+}, {
+  id: 251,
+  name: "Architectural",
+  parent: 250
+}, {
+  id: 252,
+  name: "Structural",
+  parent: 250
+}, {
+  id: 253,
+  name: "MEP",
+  parent: 250
+}, {
+  id: 254,
+  name: "Electrical",
+  parent: 253
+}, {
+  id: 255,
+  name: "Mechanical",
+  parent: 253
+}, {
+  id: 256,
+  name: "Plumbing",
+  parent: 253
+}, {
+  id: 257,
+  name: "Civil",
+  parent: 250
+}, {
+  id: 258,
+  name: "3 - Drafting",
+  parent: 244
+}, {
+  id: 259,
+  name: "Parts",
+  parent: 258
+}, {
+  id: 260,
+  name: "Coordination",
+  parent: 259
+}, {
+  id: 261,
+  name: "Record",
+  parent: 259
+}, {
+  id: 262,
+  name: "Xref",
+  parent: 259
+}, {
+  id: 263,
+  name: "Bid Xrefs",
+  parent: 262
+}, {
+  id: 264,
+  name: "2 - Design",
+  parent: 244
+}, {
+  id: 265,
+  name: "20XX-XX-XX Design",
+  parent: 264
+}, {
+  id: 266,
+  name: "4 - Construction",
+  parent: 244
+}, {
+  id: 267,
+  name: "1 - Load Test",
+  parent: 266
+}, {
+  id: 268,
+  name: "2 - Quality Control",
+  parent: 266
+}, {
+  id: 269,
+  name: "QC Basis",
+  parent: 268
+}, {
+  id: 270,
+  name: "Pre-design",
+  parent: 269
+}, {
+  id: 271,
+  name: "3 - Handoff",
+  parent: 266
+}, {
+  id: 272,
+  name: "4 - Operations",
+  parent: 222
+}, {
+  id: 273,
+  name: "2 - Production",
+  parent: 272
+}, {
+  id: 274,
+  name: "1 - DCL",
+  parent: 273
+}, {
+  id: 275,
+  name: "2 - QC Log",
+  parent: 273
+}, {
+  id: 276,
+  name: "202X-XX-XX",
+  parent: 275
+}, {
+  id: 277,
+  name: "3 - Rig Data",
+  parent: 273
+}, {
+  id: 278,
+  name: "Formatted Data",
+  parent: 277
+}, {
+  id: 279,
+  name: "20XX-XX-XX",
+  parent: 278
+}, {
+  id: 280,
+  name: "Raw Data",
+  parent: 277
+}, {
+  id: 281,
+  name: "202X-XX-XX",
+  parent: 280
+}, {
+  id: 282,
+  name: "4 - Photos",
+  parent: 272
+}, {
+  id: 283,
+  name: "Marketing",
+  parent: 282
+}, {
+  id: 284,
+  name: "YYYY-MM-DD - Initials of Photographer",
+  parent: 282
+}, {
+  id: 285,
+  name: "5 - Closure",
+  parent: 272
+}, {
+  id: 286,
+  name: "Parts",
+  parent: 285
+}, {
+  id: 287,
+  name: "1 - Precon",
+  parent: 272
+}, {
+  id: 288,
+  name: "1 - Schedule",
+  parent: 287
+}, {
+  id: 289,
+  name: "4 - Materials",
+  parent: 287
+}, {
+  id: 290,
+  name: "Misc",
+  parent: 289
+}, {
+  id: 291,
+  name: "Grout",
+  parent: 289
+}, {
+  id: 292,
+  name: "Concrete Truck Sign-in",
+  parent: 291
+}, {
+  id: 293,
+  name: "Mix Designs",
+  parent: 291
+}, {
+  id: 294,
+  name: "Strength Data",
+  parent: 291
+}, {
+  id: 295,
+  name: "Quotes",
+  parent: 291
+}, {
+  id: 296,
+  name: "Rock",
+  parent: 289
+}, {
+  id: 297,
+  name: "Quotes",
+  parent: 296
+}, {
+  id: 298,
+  name: "Steel",
+  parent: 289
+}, {
+  id: 299,
+  name: "2 - Subcontractor",
+  parent: 287
+}, {
+  id: 300,
+  name: "3 - Equipment",
+  parent: 287
+}, {
+  id: 301,
+  name: "Mobilization and Inventory",
+  parent: 300
+}, {
+  id: 302,
+  name: "Pre-Starts",
+  parent: 300
+}, {
+  id: 303,
+  name: "5 - Safety",
+  parent: 287
+}, {
+  id: 304,
+  name: "AHA - Crane Lift Plan",
+  parent: 303
+}, {
+  id: 305,
+  name: "AHA - Silica Respirator Plan",
+  parent: 303
+}, {
+  id: 306,
+  name: "Archive",
+  parent: 305
+}, {
+  id: 307,
+  name: "Crew Certs",
+  parent: 303
+}, {
+  id: 308,
+  name: "Injury - Accident Reports",
+  parent: 303
+}, {
+  id: 309,
+  name: "IIPP",
+  parent: 303
+}, {
+  id: 310,
+  name: "Near Miss - CAR",
+  parent: 303
+}, {
+  id: 311,
+  name: "Safety Contracts",
+  parent: 303
+}, {
+  id: 312,
+  name: "SDS",
+  parent: 303
+}, {
+  id: 313,
+  name: "Site Safety Evaluations",
+  parent: 303
+}, {
+  id: 314,
+  name: "Tailgate Topics",
+  parent: 303
+}, {
+  id: 315,
+  name: "Whiteboard Safety",
+  parent: 303
+}, {
+  id: 316,
+  name: "zCorrespondence",
+  parent: 222
+}, {
+  id: 317,
+  name: "Received",
+  parent: 316
+}, {
+  id: 318,
+  name: "YYYY-MM-DD - Description of Contents",
+  parent: 317
+}, {
+  id: 319,
+  name: "Sent",
+  parent: 316
+}, {
+  id: 320,
+  name: "0RFIs",
+  parent: 319
+}, {
+  id: 321,
+  name: "20XX-XX-XX RFI X",
+  parent: 320
+}, {
+  id: 322,
+  name: "0Survey",
+  parent: 319
+}, {
+  id: 323,
+  name: "20XX-XX-XX Survey",
+  parent: 322
+}, {
+  id: 324,
+  name: "YYYY-MM-DD - Description of Contents",
+  parent: 319
+}, {
+  id: 325,
+  name: "RnD",
+  parent: 0
+}, {
+  id: 326,
+  name: "0 - Standards",
+  parent: 325
+}, {
+  id: 327,
+  name: "1 - Processes &amp; Guidelines",
+  parent: 326
+}, {
+  id: 328,
+  name: "2 - Correspondence",
+  parent: 326
+}, {
+  id: 329,
+  name: "1 - Templates",
+  parent: 325,
+  size: 24593
+}, {
+  id: 330,
+  name: "2 - Projects",
+  parent: 325
+}, {
+  id: 331,
+  name: "RXX-XXXX Aggregate Piers",
+  parent: 330
+}, {
+  id: 332,
+  name: "RXX-XXXX Grout",
+  parent: 330
+}, {
+  id: 333,
+  name: "RXX-XXXX Wick Drains",
+  parent: 330
+}, {
+  id: 334,
+  name: "3 - Development",
+  parent: 325
+}, {
+  id: 335,
+  name: "1 - QC App",
+  parent: 334
+}, {
+  id: 336,
+  name: "3 - Production Summary",
+  parent: 334
+}, {
+  id: 337,
+  name: "2 - LT App",
+  parent: 334
+}, {
+  id: 338,
+  name: "4 - Omnibox",
+  parent: 334
 }]
-},{"name": "5 - Load Test Evaluation",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "zDatabase",
-"children": [
-{"name": "1 - Site Plan and Subsurface Exploration"},
-{"name": "2 - LT Data",
-"children": [
-{"name": "Dial Gauge Reading Scans"},
-{"name": "Installation & Setup Logs"},
-{"name": "RST - Potentiometer Data"},
-{"name": "RST - Strain Gauge Data"}
-]
-},{"name": "3 - Lessons Learned"},
-{"name": "4 - LT Results",
-"children": [
-{"name": "Internal Review"}
-]
-},{"name": "5 - LT Evaluation"}
-]
-}]
-},{"name": "Load Test Program Submittal",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "Load Test Letter",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "Load Test Book",
-"children": [
-{"name": "0Parts",
-"children": [
-{"name": "Install",
-"children": [
-{"name": "CAP-CSC"},
-{"name": "DD"},
-{"name": "HP"},
-{"name": "VDC-VSC"}
-]
-},{"name": "Setup"},
-{"name": "Tester"},
-{"name": "Tester Notes"}
-]
-},{"name": "Load Test App Upload"},
-{"name": "Load Test Basis"},
-{"name": "Load Test Map"}
-]
-}]
-},{"name": "3 - Handoff",
-"children": [
-{"name": "PE Handoff",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "RFI",
-"children": [
-{"name": "Design"},
-{"name": "Construction",
-"children": [
-{"name": "202X-XX-XX RFI No1 Approved For Construction Drawings",
-"children": [
-{"name": "Parts"},
-{"name": "Response"}
-]
-},{"name": "202X-XX-XX RFI No2 Quality Control Elevations",
-"children": [
-{"name": "Parts"},
-{"name": "Response"}
-]
-},{"name": "202X-XX-XX RFI No3 Survey Control and Civil CAD",
-"children": [
-{"name": "Parts"},
-{"name": "Response"}
-]
-},{"name": "202X-XX-XX RFI No4 Grout Sample and Break Data",
-"children": [
-{"name": "Parts"},
-{"name": "Response"}
-]
-},{"name": "202X-XX-XX RFI No5 Bottom of Concrete Elevations Confirmation",
-"children": [
-{"name": "Parts"},
-{"name": "Response"}
-]
-}]
-}]
-}]
-},{"name": "2 - Quality Control",
-"children": [
-{"name": "DDC-ACC",
-"children": [
-{"name": "QC App Upload"},
-{"name": "Parts",
-"children": [
-{"name": "Elevation Control Log Book"},
-{"name": "Production QC Log Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Reference QC Book"},
-{"name": "zChipping QC Log Book"}
-]
-},{"name": "QC Basis"},
-{"name": "QC Maps"}
-]
-},{"name": "CAP-CSC",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Drillers QC Log Book"},
-{"name": "Hammer QC Log Book"},
-{"name": "Production QC Log Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Reference QC Book"}
-]
-},{"name": "QC Basis"},
-{"name": "QC App Upload"},
-{"name": "QC Maps"}
-]
-},{"name": "CSB",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Drillers QC Log Book"},
-{"name": "Post-Installation QC Log Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Reference QC Book"}
-]
-},{"name": "QC Basis"},
-{"name": "QC Maps"}
-]
-},{"name": "RIC",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Production QC Log Book"}
-]
-},{"name": "QC Basis"},
-{"name": "QC Maps"}
-]
-},{"name": "DDP-ACP",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Production QC Log Book"},
-{"name": "Elevation Control Log Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Reference QC Log Book"}
-]
-},{"name": "QC App Upload"},
-{"name": "QC Basis"},
-{"name": "QC Maps"}
-]
-},{"name": "VDC-VSC",
-"children": [
-{"name": "QC Maps"},
-{"name": "QC Basis"},
-{"name": "Parts",
-"children": [
-{"name": "Production QC Log Book"},
-{"name": "Reference QC Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Rig Operators QC Log Book"}
-]
-}]
-},{"name": "zQC Reference Tables",
-"children": [
-{"name": "Grout"},
-{"name": "Aggregate"}
-]
-},{"name": "zQC Spreadsheets",
-"children": [
-{"name": "QC App Upload"}
-]
-},{"name": "HP-DPP",
-"children": [
-{"name": "QC Maps"},
-{"name": "Parts",
-"children": [
-{"name": "Elevation Control Log Book"},
-{"name": "Production QC Log Book"},
-{"name": "Project Managers QC Reference Book"},
-{"name": "Reference QC Book"}
-]
-},{"name": "QC Basis"}
-]
-},{"name": "zQC Training"}
-]
-},{"name": "5 - Grout Breaks",
-"children": [
-{"name": "Strength Data",
-"children": [
-{"name": "Mix Design No - Grout - Sand - Cement - Quarry",
-"children": [
-{"name": "28-Day"},
-{"name": "7-Day"},
-{"name": "56-Day"}
-]
-}]
-}]
-},{"name": "4 - Production Summary",
-"children": [
-{"name": "QC Download Spreadsheet"}
-]
-}]
-},{"name": "Library",
-"children": [
-{"name": "1 - Building Codes & Guidelines",
-"children": [
-{"name": "1 - CBC"},
-{"name": "3 - AASHTO"},
-{"name": "2 - ACI"}
-]
-},{"name": "2 - References",
-"children": [
-{"name": "1 - Farrell White Papers"}
-]
-},{"name": "4 - Software"},
-{"name": "3 - Presentations",
-"children": [
-{"name": "1 - Farrell Presentations"},
-{"name": "2 - Calgeo"}
-]
-},{"name": "5 - Databases",
-"children": [
-{"name": "0 - All Projects"},
-{"name": "1 - Geotechnical"},
-{"name": "2 - Structural"},
-{"name": "3 - Grout"},
-{"name": "4 - Load Test"},
-{"name": "5 - Project",
-"children": [
-{"name": "Digitial Releas Forms"},
-{"name": "Plan Check Comments"}
-]
-}]
-},{"name": "6 - Specifications"}
-]
-},{"name": "Design",
-"children": [
-{"name": "2 - GE",
-"children": [
-{"name": "Basis"},
-{"name": "Model",
-"children": [
-{"name": "AllPile"},
-{"name": "CPeT-IT"},
-{"name": "StoneC"},
-{"name": "UniPile"},
-{"name": "CLiq"},
-{"name": "Plaxis"},
-{"name": "Settle3"}
-]
-},{"name": "Parts",
-"children": [
-{"name": "REFERENCE"}
-]
-}]
-},{"name": "3 - SE",
-"children": [
-{"name": "Basis"},
-{"name": "Model",
-"children": [
-{"name": "GROUP"},
-{"name": "LPile"},
-{"name": "spColumn"}
-]
-},{"name": "Parts",
-"children": [
-{"name": "REFERENCE"}
-]
-}]
-},{"name": "1 - Takeoff",
-"children": [
-{"name": "Archive"},
-{"name": "Basis"},
-{"name": "Model",
-"children": [
-{"name": "SAFE"}
-]
-},{"name": "Parts",
-"children": [
-{"name": "REFERENCE"}
-]
-}]
-},{"name": "0 - Standards",
-"children": [
-{"name": "2 - Correspondence"},
-{"name": "1 - Processes & Guidelines",
-"children": [
-{"name": "In-house Applications"},
-{"name": "Reviews"},
-{"name": "Spreadsheets"},
-{"name": "Software"}
-]
-},{"name": "3 - Templates",
-"children": [
-{"name": "Software",
-"children": [
-{"name": "CPeT-IT"},
-{"name": "CLiq"},
-{"name": "SAFE"},
-{"name": "Settle3"},
-{"name": "UniPIle"}
-]
-},{"name": "Submittal"}
-]
-},{"name": "4 - Review"}
-]
-},{"name": "4 - Settlement",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "REFERENCE"}
-]
-},{"name": "Basis"},
-{"name": "Model"}
-]
-}]
-},{"name": "Drafting",
-"children": [
-{"name": "0 - Standards",
-"children": [
-{"name": "1 - Processes & Guidelines"},
-{"name": "2 - Correspondence"}
-]
-},{"name": "1 - CAD Files"},
-{"name": "2 - Details"}
-]
-},{"name": "zJob File Folder Structure",
-"children": [
-{"name": "1 - Contract",
-"children": [
-{"name": "1 - Contract Review",
-"children": [
-{"name": "1 Scope of Work"},
-{"name": "2 Labor"},
-{"name": "3 Safety"}
-]
-},{"name": "0 - Buy-Out Meeting"},
-{"name": "10 - Contract Documents"},
-{"name": "2 - Contract Executed"},
-{"name": "3 - Change Order"},
-{"name": "5 - Pre Lien"},
-{"name": "4 - Insurance"},
-{"name": "6 - Billing"},
-{"name": "7 - PRIME Contract"},
-{"name": "8 - Electronic Drawing Release"},
-{"name": "9 - Design Authorization"}
-]
-},{"name": "2 - Estimating",
-"children": [
-{"name": "20XX-XX-XX BID",
-"children": [
-{"name": "Basis",
-"children": [
-{"name": "Engineering",
-"children": [
-{"name": "0For Review"},
-{"name": "0Parts"}
-]
-}]
-}]
-}]
-},{"name": "3 - Engineering",
-"children": [
-{"name": "1 - Reference",
-"children": [
-{"name": "Geotech",
-"children": [
-{"name": "CPT Data"},
-{"name": "Geotechnical Review",
-"children": [
-{"name": "Parts"}
-]
-}]
-},{"name": "Drawings",
-"children": [
-{"name": "Architectural"},
-{"name": "Structural"},
-{"name": "MEP",
-"children": [
-{"name": "Electrical"},
-{"name": "Mechanical"},
-{"name": "Plumbing"}
-]
-},{"name": "Civil"}
-]
-}]
-},{"name": "3 - Drafting",
-"children": [
-{"name": "Parts",
-"children": [
-{"name": "Coordination"},
-{"name": "Record"},
-{"name": "Xref",
-"children": [
-{"name": "Bid Xrefs"}
-]
-}]
-}]
-},{"name": "2 - Design",
-"children": [
-{"name": "20XX-XX-XX Design"}
-]
-},{"name": "4 - Construction",
-"children": [
-{"name": "1 - Load Test"},
-{"name": "2 - Quality Control",
-"children": [
-{"name": "QC Basis",
-"children": [
-{"name": "Pre-design"}
-]
-}]
-},{"name": "3 - Handoff"}
-]
-}]
-},{"name": "4 - Operations",
-"children": [
-{"name": "2 - Production",
-"children": [
-{"name": "1 - DCL"},
-{"name": "2 - QC Log",
-"children": [
-{"name": "202X-XX-XX"}
-]
-},{"name": "3 - Rig Data",
-"children": [
-{"name": "Formatted Data",
-"children": [
-{"name": "20XX-XX-XX"}
-]
-},{"name": "Raw Data",
-"children": [
-{"name": "202X-XX-XX"}
-]
-}]
-}]
-},{"name": "4 - Photos",
-"children": [
-{"name": "Marketing"},
-{"name": "YYYY-MM-DD - Initials of Photographer"}
-]
-},{"name": "5 - Closure",
-"children": [
-{"name": "Parts"}
-]
-},{"name": "1 - Precon",
-"children": [
-{"name": "1 - Schedule"},
-{"name": "4 - Materials",
-"children": [
-{"name": "Misc"},
-{"name": "Grout",
-"children": [
-{"name": "Concrete Truck Sign-in"},
-{"name": "Mix Designs"},
-{"name": "Strength Data"},
-{"name": "Quotes"}
-]
-},{"name": "Rock",
-"children": [
-{"name": "Quotes"}
-]
-},{"name": "Steel"}
-]
-},{"name": "2 - Subcontractor"},
-{"name": "3 - Equipment",
-"children": [
-{"name": "Mobilization and Inventory"},
-{"name": "Pre-Starts"}
-]
-},{"name": "5 - Safety",
-"children": [
-{"name": "AHA - Crane Lift Plan"},
-{"name": "AHA - Silica Respirator Plan",
-"children": [
-{"name": "Archive"}
-]
-},{"name": "Crew Certs"},
-{"name": "Injury - Accident Reports"},
-{"name": "IIPP"},
-{"name": "Near Miss - CAR"},
-{"name": "Safety Contracts"},
-{"name": "SDS"},
-{"name": "Site Safety Evaluations"},
-{"name": "Tailgate Topics"},
-{"name": "Whiteboard Safety"}
-]
-}]
-}]
-},{"name": "zCorrespondence",
-"children": [
-{"name": "Received",
-"children": [
-{"name": "YYYY-MM-DD - Description of Contents"}
-]
-},{"name": "Sent",
-"children": [
-{"name": "0RFIs",
-"children": [
-{"name": "20XX-XX-XX RFI X"}
-]
-},{"name": "0Survey",
-"children": [
-{"name": "20XX-XX-XX Survey"}
-]
-},{"name": "YYYY-MM-DD - Description of Contents"}
-]
-}]
-}]
-},{"name": "RnD",
-"children": [
-{"name": "0 - Standards",
-"children": [
-{"name": "1 - Processes & Guidelines"},
-{"name": "2 - Correspondence"}
-]
-},{"name": "1 - Templates","size": 24593},
-{"name": "2 - Projects",
-"children": [
-{"name": "RXX-XXXX Aggregate Piers"},
-{"name": "RXX-XXXX Grout"},
-{"name": "RXX-XXXX Wick Drains"}
-]
-},{"name": "3 - Development",
-"children": [
-{"name": "1 - QC App"},
-{"name": "3 - Production Summary"},
-{"name": "2 - LT App"},
-{"name": "4 - Omnibox"}
-]
-}]
-}]
-}
