@@ -1,0 +1,22 @@
+console.log(flatten2(data));
+
+function flatten2(obj) {
+  let id = 1;
+  return _flatten2(obj);
+
+  function _flatten2(obj, ar = [], parentID = -1) {
+    let node = {};
+      node.id = id++;
+      node.name = obj.name;
+      if (parentID !== -1) { node.parent = parentID;}
+      if (obj.size) { node.size = obj.size;}
+      ar.push(node);
+
+      if (obj.children) {
+        for (let child of obj.children) {
+          _flatten2(child, ar, node.id);
+        }
+      }
+    return ar;
+  }
+}
