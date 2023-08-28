@@ -1,3 +1,4 @@
+data = {}
 console.log(flatten2(data));
 
 function flatten2(obj) {
