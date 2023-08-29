@@ -16,7 +16,7 @@
   {
     "id": 4,
     "name": "2 - Office Templates",
-    "parent": [2,1]
+    "parent": 2
   },
   {
     "id": 5,
